@@ -1,12 +1,19 @@
 # Contributing to Data-Structure-and-Algorithms
 Thanks for taking the time to contribute! 🐱‍🏍  
-When contributing to this repository, please first discuss the change you wish to make via issue or any other method with the owner of this repository before making a change.
+When contributing to this repository, please first discuss the change you wish to make via issue or any other method with the owner of this repository ([Nivedita Singh](https://github.com/Nivedita967)) before making a change.
 
 ### For Contribution
 1. Fork the repository  
-2. Add your solution  
+2. Add your solution/code
 3. Create a pull request  
-4. Star this repository
+4. Star this repository ⭐
+
+### For adding new Code  
+1. Select any problem from any coding platform (leetcode, hackerrank, codechef). 💻   
+2. Make sure the problem doesn't already exist in this repository or no one is working on that problem in the language you want to code! 😬  
+3. Test your code thoroughly such that it passes all the test cases. 🏆  
+4. Create a folder for the topic you wish to add code or if a folder already exists, add your code to it. 📁  
+5. In the respective folder, add your code file with proper format (e.g. `Leetcode/Two Sum/Two Sum.java`)
 
 ## Code of Conduct
 
