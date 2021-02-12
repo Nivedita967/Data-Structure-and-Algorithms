@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main(void) 
+int main(void)
 {
     int t;
-    scanf("%d",&t);
+    scanf("%d", &t);
     int mul;
-    for(int i=0;i<t;i++)
-    {   
+    for (int i = 0; i < t; i++)
+    {
         int num = 0;
-        int num2=0;
+        int num2 = 0;
         scanf("%d", &num);
         while (num > 0)
         {

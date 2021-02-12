@@ -8,7 +8,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.InputStream;
 
-
 public class Main {
 	public static void main(String[] args) {
 		InputStream inputStream = System.in;
@@ -17,12 +16,12 @@ public class Main {
 
 		int n = in.nextInt();
 		int k = in.nextInt();
-		
+
 		int ans = 0;
-		
+
 		for (int i = 0; i < n; i++) {
 			int x = in.nextInt();
-			
+
 			if (x % k == 0) {
 				ans++;
 			}
@@ -43,9 +42,9 @@ public class Main {
 		public String next() {
 			while (tokenizer == null || !tokenizer.hasMoreTokens()) {
 				try {
-				    tokenizer = new StringTokenizer(reader.readLine());
+					tokenizer = new StringTokenizer(reader.readLine());
 				} catch (IOException e) {
-				    throw new RuntimeException(e);
+					throw new RuntimeException(e);
 				}
 			}
 			return tokenizer.nextToken();
