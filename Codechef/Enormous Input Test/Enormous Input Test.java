@@ -1,3 +1,6 @@
+//TODO: Write a single integer to output, denoting how many integers ti are divisible by k.
+
+//TODO: Importing java packages
 import java.io.OutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,12 +16,13 @@ public class Main {
 		InputStream inputStream = System.in;
 
 		InputReader in = new InputReader(inputStream);
-
+                //TODO: Getting user input
 		int n = in.nextInt();
 		int k = in.nextInt();
 
 		int ans = 0;
-
+                
+		//TODO: Calculating the answer
 		for (int i = 0; i < n; i++) {
 			int x = in.nextInt();
 
@@ -26,7 +30,8 @@ public class Main {
 				ans++;
 			}
 		}
-
+                
+		//TODO: printing the answer
 		System.out.println(ans);
 	}
 
