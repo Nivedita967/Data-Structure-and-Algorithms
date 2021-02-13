@@ -26,3 +26,4 @@ int main(){
       
     leftrotation(arr,n,k);
 }
+
