@@ -1,3 +1,4 @@
+//issue #25
 int xorOperation(int n, int start)
 {
     int sum=0;
