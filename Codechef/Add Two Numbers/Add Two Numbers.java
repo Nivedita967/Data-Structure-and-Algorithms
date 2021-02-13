@@ -1,3 +1,5 @@
+//TODO: to add two numbers provided by the user
+
 import java.io.OutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -16,14 +18,14 @@ public class Main {
 
 		InputReader in = new InputReader(inputStream);
 
-		// Read the number of test casese.
+		////TODO: Read the number of test cases.
 		int T = in.nextInt();
 		while (T-- > 0) {
-			// Read the numbers a and b.
+			////TODO: Read the numbers a and b.
 			int a = in.nextInt();
 			int b = in.nextInt();
 
-			// Compute the sum of a and b.
+			////TODO: Compute the sum of a and b.
 			int ans = a + b;
 			System.out.println(ans);
 		}
@@ -37,7 +39,7 @@ public class Main {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);
 			tokenizer = null;
 		}
-
+                   //TODO: exception catching
 		public String next() {
 			while (tokenizer == null || !tokenizer.hasMoreTokens()) {
 				try {
@@ -54,3 +56,4 @@ public class Main {
 		}
 	}
 }
+
