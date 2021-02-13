@@ -4,10 +4,11 @@ Covering various practice problems of Arrays, Stacks, queue, tree, graph and dif
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
 
-## Used Languages
-* Java
+## Used Languages  
 * C
 * C++
+* Java
+* Python
 
 ## Contact  
 * Gitter Channel 🠮 [![Join the chat at https://gitter.im/Data-Structure-and-Algorithms-Nivedita/community](https://badges.gitter.im/Data-Structure-and-Algorithms-Nivedita/community.svg)](https://gitter.im/Data-Structure-and-Algorithms-Nivedita/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  
