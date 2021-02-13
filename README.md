@@ -1,7 +1,7 @@
 # Data-Structure-and-Algorithms  
-Covering various practice problems of Arrays, Stacks, queue, tree, graph and different Algorithms. A collection of solutions for Data Structure and Algorithms problems across various platforms in different languages.  
+Covering various practice problems of Arrays, Stacks, Queues, Trees, Graphs and different Algorithms from different competitive coding platforms like Codechef, Hackerrank and Leetcode. A collection of solutions for Data Structure and Algorithms problems across various platforms in different languages.  
 ## Contributing  
-This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
+This repository is contribution friendly. If you like to add or improve any algorithm, your contribution is welcomed!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
 
 ## Used Languages
