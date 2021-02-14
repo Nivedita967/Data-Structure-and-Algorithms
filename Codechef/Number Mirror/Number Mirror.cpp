@@ -8,7 +8,7 @@ int main(void)
 {    
     int x;
     cin>>x;          //TODO: getting input from user
-    cout>>x;         //TODO: displaying the same integer
+    cout<<x;         //TODO: displaying the same integer
 }
 
 
