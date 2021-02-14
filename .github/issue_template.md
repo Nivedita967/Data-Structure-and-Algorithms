@@ -1,9 +1,8 @@
 #### Problem Link (problem on which you want to work)
 
-#### Mention the coding platform from where you have pick the problem
+#### Mention the coding platform from where you have picked the problem
 
-#### Describe the changes you've made
-A clear and concise description of what you have added. Any new files? or anything you feel to let us know!
+#### Mention in which programming language you want to code
 
 #### Describe if there is any unusual behaviour of your code(Write `NA` if there isn't)
 A clear and concise description of it.
@@ -11,19 +10,12 @@ A clear and concise description of it.
 #### Additional context (OPTIONAL)
 Add any other context or screenshots about the feature request here.
 
-#### Test plan (OPTIONAL)
-A good test plan should give instructions that someone else can easily follow.
-How someone can test your code?
-
 #### Checklist
 <!--
 Example how to mark a checkbox :-
 - [x] My code follows the code style of this project.
 -->
 - [ ] My code follows the code style of this project.
-- [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
-- [ ] I have added tests to cover my changes.
 - [ ] All new and existing tests passed.
-- [ ] The title of my pull request is a short description of the requested changes.
 - [ ] Open Source Program names(OPTIONAL: If you participated in any open-source program then please mention the program name here)
