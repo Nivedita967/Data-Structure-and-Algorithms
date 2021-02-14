@@ -13,8 +13,8 @@ using namespace std;
 ll its_Function()
 {
     ll n,m,sum1=0,sum2=0;
-    cin>>n>>m;
-    vector<ll> vect1(n),vect2(m);
+    cin>>n>>m; //Reading Inputs
+    vector<ll> vect1(n),vect2(m); // Making Vector
     for(ll i=0;i<n;i++)
     {
         cin>>vect1[i];
@@ -25,8 +25,8 @@ ll its_Function()
         cin>>vect2[i];
         sum2+=vect2[i];
     }
-    sort(vect1.begin(),vect1.end());
-    sort(vect2.begin(),vect2.end());
+    sort(vect1.begin(),vect1.end()); //Sorting Vector
+    sort(vect2.begin(),vect2.end()); //Sorting Vector
      ll k=0,count = 0;
     if(sum1>sum2)
     {
@@ -41,17 +41,17 @@ ll its_Function()
                count++;
                sum1-=vect1[k];
                sum1+=vect2[i];
-               sum2+=vect1[k];
+               sum2+=vect1[k];               
                sum2-=vect2[i];
                if(sum1>sum2)
                {
-                   return count;
+                   return count;    // Return the answer
                }
                k++;
            }
         }
     }
-    return -1;
+    return -1;  // Default Return
 }
  
 int main()
