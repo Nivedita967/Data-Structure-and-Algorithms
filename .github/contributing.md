@@ -69,9 +69,9 @@ git push origin YourBranchName
 - Create a folder for the topic you wish to add code or if a folder already exists, add your code to it. 📁  
 - In the respective folder, add your code file with proper format (e.g. `Leetcode/Two Sum/Two Sum.java`)
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+**9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to [Data-Structure-and-Algorithms](https://github.com/Nivedita967/Data-Structure-and-Algorithms) project.
+**10.** **Congratulations!** Sit and relax, you've made your contribution to [Data-Structure-and-Algorithms](https://github.com/Nivedita967/Data-Structure-and-Algorithms) project.
 
 ***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
 
