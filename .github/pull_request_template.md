@@ -10,12 +10,7 @@ A clear and concise description of what you have done to successfully close your
 A clear and concise description of it.
 
 ### Language used for coding
-- [ ] C
-- [ ] C++
-- [ ] Java
-- [ ] Javascipt
-- [ ] Python
-- [ ] Others ( Mention any other language if used )
+<!--Mention the language you have used for coding here-->
 
 ### Checklist:
 <!--
