@@ -1,91 +1,104 @@
-# Contributing to Data-Structure-and-Algorithms
+# 🤝***First time contributing? We will help you out.*** 👍
+
+![GitHub custom open for collaboration](https://img.shields.io/badge/Open%20For-Collaboration-brightgreen?style=for-the-badge)
+
+Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
+
+
+- [Getting started with Git and GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+
+***If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).***
+
 Thanks for taking the time to contribute! 🐱‍🏍  
 When contributing to this repository, please first discuss the change you wish to make via issue or any other method with the owner of this repository ([Nivedita Singh](https://github.com/Nivedita967)) before making a change.
 
+## 💥 How to Contribute
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+- Take a look at the Existing [Issues](https://github.com/Nivedita967/Data-Structure-and-Algorithms/issues) or create your own Issues!
+- Wait for the Issue to be assigned to you after which you can start working on it.
+- Fork the Repo and create a Branch for any Issue that you are working upon.
+- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
+- Add Screenshots to help us know what this Script is all about.
+
 ### For Contribution
-1. Fork the repository  
-2. Add your solution/code
-3. Create a pull request  
-4. Star this repository ⭐
 
+**1.** Fork [this](https://github.com/Nivedita967/Data-Structure-and-Algorithms) repository.
+Click on the <a href="https://github.com/Nivedita967/Data-Structure-and-Algorithms"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+
+**2.** Clone the forked repository.
+
+```bash
+git clone https://github.com/<your-github-username>/Data-Structure-and-Algorithms
+```
+
+**3.** Navigate to the project directory.
+
+```bash
+cd Data-Structure-and-Algorithms
+```
+**5.** Create a new branch:
+```bash
+git checkout -b YourBranchName
+```
+
+**6.** Make changes in source code.
+
+**7.** Stage your changes and commit
+
+```bash
+git add .
+```
+```bash
+git commit -m "<your_commit_message>"
+```
+
+**8.** Push your local commits to the remote repo.
+
+```bash
+git push origin YourBranchName
+```
 ### For adding new Code  
-1. Select any problem from any coding platform (leetcode, hackerrank, codechef). 💻   
-2. Make sure the problem doesn't already exist in this repository or no one is working on that problem in the language you want to code! 😬  
-3. Test your code thoroughly such that it passes all the test cases. 🏆  
-4. Create a folder for the topic you wish to add code or if a folder already exists, add your code to it. 📁  
-5. In the respective folder, add your code file with proper format (e.g. `Leetcode/Two Sum/Two Sum.java`)
+- Select any problem from any coding platform (leetcode, hackerrank, codechef). 💻  
+- Make sure the problem doesn't already exist in this repository or no one is working on that problem in the language you want to code! 😬                                                                           
+- Create a folder for the topic you wish to add code or if a folder already exists, add your code to it. 📁  
+- In the respective folder, add your code file with proper format (e.g. `Leetcode/Two Sum/Two Sum.java`)
 
-## Code of Conduct
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-### Our Pledge
+**9.** **Congratulations!** Sit and relax, you've made your contribution to [Data-Structure-and-Algorithms](https://github.com/Nivedita967/Data-Structure-and-Algorithms) project.
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
 
-### Our Standards
+## Style Guides for Git Commit Messages:memo:
 
-Examples of behavior that contributes to creating a positive environment
-include:
+#### Here's a list of some good to have points, that can add more value to your contribution logs.
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+- Use the present tense (example: "Add feature" and not "Added feature")
+- Use the imperative mood (example: "Move item to...", instead of "Moves item to...")
+- Limit the first line (also called subject line) to 50 characters or less
+- Capitalize the subject line
+- Separate subject from body with a blank line
+- Do not end the subject line with a period
+- Wrap the body at 72 characters
+- Use the body to explain what, why, vs, and how
+- Reference issues and pull requests liberally after the first line
 
-Examples of unacceptable behavior by participants include:
+For more detailed reference to the above points, refer here: https://chris.beams.io/posts/git-commit.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+## 💥 Issues:
+For major changes, you are welcomed to open an issue  about what you would like to contribute. Enhancements will be appreciated.
 
-### Our Responsibilities
+#### All the Best!🥇
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+<p align = "center">
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+<a href="https://github.com/muthuannamalai12"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Nivedita967/Data-Structure-and-Algorithms)
 
-### Scope
-
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
-
-### Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
-
-### Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+</p>
