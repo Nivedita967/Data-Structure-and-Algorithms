@@ -10,7 +10,7 @@ A clear and concise description of what you have done to successfully close your
 A clear and concise description of it.
 
 ### Language used for coding
-<!--Mention the language you have used for coding here-->
+Mention the language you have used for coding here.
 
 ### Checklist:
 <!--
