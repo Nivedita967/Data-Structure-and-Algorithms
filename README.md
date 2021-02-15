@@ -4,11 +4,17 @@ Covering various practice problems of Arrays, Stacks, queue, tree, graph and dif
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
 
-## Used Languages
-* Java
+## Used Languages  
 * C
 * C++
+* Java
+* Python
 
 ## Contact  
 * Gitter Channel 🠮 [![Join the chat at https://gitter.im/Data-Structure-and-Algorithms-Nivedita/community](https://badges.gitter.im/Data-Structure-and-Algorithms-Nivedita/community.svg)](https://gitter.im/Data-Structure-and-Algorithms-Nivedita/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  
-* Project is maintained by 🠮 [Nivedita Singh](https://github.com/Nivedita967) 
+* Project is maintained by 🠮 [Nivedita Singh](https://github.com/Nivedita967)  
+### Give it a STAR 🌟 if you like ❤ this project.
+
+### This Project is a part of the following Open Source Program
+
+<img src ="https://github.com/Ayush7614/Data-Structure-and-Algorithms/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>
