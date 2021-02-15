@@ -1,6 +1,6 @@
 
 def subsets(nums):
-    #def subsets(self, nums: List[int]) -> List[List[int]]
+    def subsets(self, nums: List[int]) -> List[List[int]]:
     result = []
     sub = []
     
