@@ -1,38 +1,61 @@
 class Solution {
-    public:
-        int shortestPathBinaryMatrix(int[][] grid) {
-        if (grid[0][0] == 1) {
+    public int shortestPathBinaryMatrix(int[][] grid) {
+        
+        //8 possible directions
+        int[][] dir = {{1,0},{0,1},{-1,0},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}};
+        
+        //lenght and width of matrix
+        int n = grid.length;
+        
+        //if both corners are blocked then simply return -1
+        if(grid[0][0] == 1 || grid[n-1][n-1] == 1){
             return -1;
         }
-        int n = grid.length;
-        int[][] distance = new int[n][n];
-        for (int[] dist: distance) {
-            Arrays.fill(dist, -1);
-        }
-        distance[0][0] = 1;
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(0);
-        queue.add(0);
-
-        while (queue.size() > 0) {
-            int row = queue.poll();
-            int col = queue.poll();
-
-            int[] rowMoves = {1, -1, 0, 0, 1, -1, -1, 1};
-            int[] colMoves = {0, 0, -1, 1, -1, 1, -1, 1};
-
-            for (int i = 0; i < 8; i++) {
-                int newRow = row + rowMoves[i];
-                int newCol = col + colMoves[i];
-
-                if (newRow >= 0 && newRow < n && newCol >=0 && newCol < n && distance[newRow][newCol] == -1 && grid[newRow][newCol] == 0) {
-                    distance[newRow][newCol] = distance[row][col] + 1;
-                    queue.add(newRow);
-                    queue.add(newCol);
+        
+        int distance = 0;
+        
+        //queue because we want to apply bfs
+        Queue<int[]> q = new LinkedList<int[]>();
+        
+        //to keep the track of visited co-ordinates(indices)
+        boolean[][] visited = new boolean[n][n];
+        
+        //add first co-ordinate (0,0) to queue
+        q.add(new int[]{0,0});
+        
+        //mark (0,0) visited
+        visited[0][0] = true;
+        
+        //while queue is not empty calculate size of queue and remove all the co-ordinates present in a queue and add eligible co-ordinates
+        while(!q.isEmpty()){
+            int size = q.size();
+            
+            for(int i = 0; i < size; i++){
+                int[] current = q.remove();
+                
+                //we reached at co-ordinate (n-1,n-1) then return distance + 1
+                if(current[0] == n - 1 && current[1] == n - 1){
+                    return distance + 1;
+                }
+                
+                //otherwise check for all the 8 directions using disr array
+                for(int j = 0; j < 8; j++){
+                    int nextX = current[0] + dir[j][0];
+                    int nextY = current[1] + dir[j][1];
+                    
+                    //if possible next co-ordinates are in the range of matrix and it is not blocked and it is not visited then add it to the queue and mark visited as true
+                    if(nextX >= 0 && nextX < n && nextY >= 0 && nextY < n && grid[nextX][nextY] != 1 && !visited[nextX][nextY]){
+                        q.add(new int[]{nextX,nextY});
+                        visited[nextX][nextY] = true;
+                    }
                 }
             }
+            
+            //after every level increment distance by 1
+            distance++;
         }
-        System.out.println(Arrays.deepToString(distance));
-        return distance[n - 1][n - 1];
+        
+        //if loop is not breaked then it means that path is not found so return -1
+        return -1;
     }
 }
