@@ -5,7 +5,6 @@ Mention the problem on which you want to work on
 Mention the coding platform from where you have picked the problem
 
 ### Programming language
-Mention in which programming language you want to code
 <!--
 Example how to mark a checkbox :-
 - [x] My code follows the code style of this project.
