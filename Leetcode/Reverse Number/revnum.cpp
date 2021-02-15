@@ -21,4 +21,4 @@ public:
     if(pos == 0)
         sum *= -1; //Making it -ve if original num was -ve
     return sum;
-}
+};
