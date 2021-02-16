@@ -23,15 +23,15 @@ void its_Function()
   {
       cin>>v[i];
   }
-  ll fuel = v[0];
+  ll fuel = v[0]; // Taking initaial value of the fuel as the first element of the vector
   ll dis = 0;
   for(ll i =1;i<n;i++)
   {
-      if(fuel!=0)
+      if(fuel!=0)  // Ckecking if the fule is left or not
       {
-      fuel -= 1;
+      fuel -= 1; // If fuel is not finished then decrease it by one for the trip
       dis+=1;
-      fuel+=v[i];
+      fuel+=v[i]; // Increasing the fuel value by the value of the fuel available at next stop
       }
   }
   cout<<dis+fuel;  //Printing Output
