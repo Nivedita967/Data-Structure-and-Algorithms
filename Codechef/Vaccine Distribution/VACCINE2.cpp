@@ -13,13 +13,13 @@ ll Function()
     vector<double> vect(n);
     for(ll i=0;i<n;i++)
     {
-        cin>>vect[i];
+        cin>>vect[i];         // Taking input as elements of vector.
     }
     for(auto k:vect)
     {
         if(k<=9 or k>=80)
         {
-            count_r++;
+            count_r++;           // Incrementing count_r to the desired value on the basis of if and else conditions
         }
         else
         {
@@ -27,7 +27,7 @@ ll Function()
         }
     }
     
-    ll   x1 = ceil(count_r/d);     //Logic
+    ll   x1 = ceil(count_r/d);     // Taking ceil value of the floating values
     ll   x2 = ceil(count_nr/d);
 
     return (x1+x2);  //Returning Output
