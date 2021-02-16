@@ -20,13 +20,13 @@ int main()  // Main Function
         {
             if(k==0 or k==n)
             break;
-            if(sum+i<=i+1 and k>0)
+            if(sum+i<=i+1 and k>0) // This is the if conditions that assigns values to elements of vector vect and increments sum with desired value.
             {
                 vect[i] = i;
                 sum+=i;
                 i++;
                 k--;
-                continue;
+                continue;  // Continue Statement
             }
             if(sum>i)
             {
@@ -35,7 +35,7 @@ int main()  // Main Function
                 i++;                
                 if(sum>0)
                 k--;
-                continue;
+                continue;  // Continue Statement
             }
             if(sum+i>i+1 and k==1)
             {
@@ -46,10 +46,10 @@ int main()  // Main Function
                 else
                 {
                     sum-=i;
-                    continue;
+                    continue;  // Continue Statement
                 } 
             }
-            if(sum+i>i+1 and k>1)
+            if(sum+i>i+1 and k>1)  // All these if conditions are to clear some test cases so as our code fails on none of them.
             {
                 vect[i] = i;
                 if(sum>0)
