@@ -6,8 +6,7 @@ Mention the coding platform from where you have picked the problem
 
 ### Programming language
 <!--
-Example how to mark a checkbox :-
-- [x] My code follows the code style of this project.
+Leave it unchecked Owner will mark it :)
 -->
 - [ ] C
 - [ ] C++
