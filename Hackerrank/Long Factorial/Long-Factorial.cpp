@@ -4,7 +4,7 @@ using namespace std;
 void multiply(int *a, int &n, int no) 
 {
   int carry = 0; // Initialize carry
-  
+
   for (int i = 0; i < n; i++)
   {
     int product = a[i] * no + carry;
@@ -42,5 +42,5 @@ void big_factorial(int numbers)
 
 int main()
 {
-  big_factorial(0);
+  big_factorial(100);
 }
