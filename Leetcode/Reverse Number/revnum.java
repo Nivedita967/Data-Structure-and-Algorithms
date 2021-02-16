@@ -1,3 +1,8 @@
+/*
+A java program to reverse a number.
+If a number is given this program returns the reverse of that number.
+*/
+
 public class Solution {
 
   public int reverse(int x) {
@@ -14,3 +19,14 @@ public class Solution {
     return reversed;
   }
 }
+
+/*
+Sample Case : 
+Example 1:
+Input: x = 123
+Output: 321
+
+Example 2:
+Input: x = -123
+Output: -321
+*/
