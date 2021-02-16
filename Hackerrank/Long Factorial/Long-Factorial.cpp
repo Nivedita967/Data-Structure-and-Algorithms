@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-void multiply(int *a, int &n, int no)
+void multiply(int *a, int &n, int no) 
 {
-  int carry = 0;
+  int carry = 0; // Initialize carry
+  
   for (int i = 0; i < n; i++)
   {
     int product = a[i] * no + carry;
@@ -23,8 +24,10 @@ void big_factorial(int numbers)
 {
   //Assumming max digit 1000 Digits
   int *a = new int[1000]{0};
-  a[0] = 1;
+  a[0] = 1;  //Factorial of 1 and zero is 1 //Initialising the result
   int n = 1; //n denotes the array index
+
+  //Factorial is calulated and stroed in array , n!=n*(n-1)*...........1
   for (int i = 2; i <= numbers; i++)
   {
     multiply(a, n, i);
@@ -39,5 +42,5 @@ void big_factorial(int numbers)
 
 int main()
 {
-  big_factorial(100);
+  big_factorial(0);
 }
