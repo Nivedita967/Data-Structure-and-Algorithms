@@ -4,6 +4,8 @@ using namespace std;
 
 // Complete the quickestWayUp function below.
 int quickestWayUp(vector<vector<int>> ladders, vector<vector<int>> snakes) {
+
+    //distance array to keep an account of the smallest distance for each cell of the board.  
     vector<int>distance(101, 0);
         for(int i=0;i<ladders.size();i++){
             distance[ladders[i][0]]+=(ladders[i][1]-ladders[i][0]);
@@ -11,15 +13,20 @@ int quickestWayUp(vector<vector<int>> ladders, vector<vector<int>> snakes) {
         for(int i=0;i<snakes.size();i++){
             distance[snakes[i][0]]+=(snakes[i][1]- snakes[i][0]);
         }
-        int count=0;
+
+        //queue is used as a data structures for solving it using breadth first search algorithm.
         queue<int>que;
         que.push(1);
+
+        //moves array in order to maintain the jump of the ladder or difference of the snake at each cell. 
         vector<int>moves(101,INT_MAX);
-        bool res=false;
+        bool res=false; //to know if we could travel till 100th position or not. 
         moves[1]=0;
         for(int i=2;i<7;i++){
             moves[i+distance[i]]=1;
         }
+
+        //Breadth First Search Algorithm implemented !!!
         while(que.size()!=0){
 
             int rn=que.front();
@@ -40,11 +47,17 @@ int quickestWayUp(vector<vector<int>> ladders, vector<vector<int>> snakes) {
                 }
             }
         }
+
+        //if there is no way till 100th position, then returning -1
         if(!res){
             return -1;
         }
+
+        //if there exists a path then returning the quickest possible path stored in moves array.
         return moves[100];
 }
+
+//driver function as given on hackerrank platform.
 
 int main()
 {
