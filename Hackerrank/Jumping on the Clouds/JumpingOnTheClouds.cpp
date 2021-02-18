@@ -6,10 +6,10 @@ vector<string> split_string(string);
 
 // Complete the jumpingOnClouds function below.
 int jumpingOnClouds(vector<int> c) {
-    int n=c.size();
+    int n=c.size(); //getting the size of array c
     int jumps=0;
     for(int i=0; i<n; ) {
-        if(c[i] == 0 && c[i+2] == 0) {
+        if(c[i] == 0 && c[i+2] == 0) {  //first we check for longest possible jump for minimum number of jumps
             jumps++;
             i += 2;
         } else if(c[i] == 0 && c[i+1] == 0) {
@@ -17,8 +17,8 @@ int jumpingOnClouds(vector<int> c) {
             i += 1;
         }
     }
-    if(jumps == 1)  return jumps;
-    else    return jumps-1;
+    if(jumps == 1)  return jumps;   //this is special case of only 2 cumulus clouds
+    else    return jumps-1; //accessing an array element out of its bound gives 0 only, hence 1 jump needs to be deducted which came after reaching the last cloud
 }
 
 int main()
