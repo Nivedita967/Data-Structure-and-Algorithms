@@ -7,10 +7,16 @@
 
 int main()
 {
+    //declaration of variables 
     int i,a, b;
+    
+    //taking input
     scanf("%d\n%d", &a, &b);
+    
+    //loop for checking the numbers
   	for(i=a; i<=b; i++)
       {
+        //if number is between 1-9 it will print its english name
           if(i==1)
           {
               printf("one\n");
@@ -47,6 +53,8 @@ int main()
           {
               printf("nine\n");
           }
+        
+         // it will check for numbers greater than 9 whether they are odd or even and print output accordingly 
           else if(i>9)
           {
               if(i%2==0)
