@@ -16,6 +16,7 @@ int FindP(int *P, int x)
 // function for merging the pairs 
 void MergeS(int *P, int *R, int *C, int A, int B)
 {
+    //comparing and merging
     if(R[A] < R[B]) {
         P[A] = B;
         C[B] += C[A];
@@ -62,8 +63,6 @@ int main()
              MergeS(P, R, C, A, B);  
         }
     }
-
-    
     UC = 0;
     for(i=0;i<N;i++) 
     {
@@ -72,7 +71,6 @@ int main()
             M[UC++] = C[i];
         }
     }
-
     S[0] = M[0];
     for(i=1;i<UC;i++) 
     {
