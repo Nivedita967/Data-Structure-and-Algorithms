@@ -1,6 +1,4 @@
-
-// simple java program to remove 
-// duplicates 
+// simple java program to remove  duplicates 
 
 class Main 
 { 
