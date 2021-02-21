@@ -15,6 +15,7 @@ class Solution {
     {
       //declaring a vector for every position of dp vector  
       vector<int> newDp(5);
+      
       //loop for making vowel strings   
       for (int j = 0; j < 5; ++j)
       { 
