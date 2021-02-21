@@ -21,4 +21,5 @@ int localMin(int a[], int low, int high,int n)
   
     //recursive calling of function for local minima 
     return localMin(a, (mid + 1), high, n); 
+    
 } 
