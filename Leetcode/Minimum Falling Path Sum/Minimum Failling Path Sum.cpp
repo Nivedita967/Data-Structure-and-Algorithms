@@ -14,7 +14,7 @@ public:
     //declaration of a vector 
     vector<vector<int>> dp(n + 2, vector<int>(m + 2));
           
-     //calculating failing paths sum    
+     //calculating falling paths sum    
     for (int i = 1; i <= n; ++i)
      {
       dp[i][0] = dp[i][m + 1] = INT_MAX;
@@ -25,7 +25,7 @@ public:
       }
     }
 
-    //returning minimum failling path sum
+    //returning minimum falling path sum
     return *min_element(dp[n].begin() + 1, dp[n].end() - 1);
   }
 };
