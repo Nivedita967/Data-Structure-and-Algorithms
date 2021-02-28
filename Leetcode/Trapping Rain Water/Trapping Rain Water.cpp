@@ -1,3 +1,14 @@
+
+// Total unit of water = Sum of Water on top of each building
+// or, Total Water = Sum(water[i]) where 0<=i<n
+
+// Now problem is broken to find water on top of each building
+// or, Water[i] = min(maxL[i],maxR[i]) - height[i]
+
+// where, maxL[i]=max height in left array i.e. max height in [0,i)
+//        maxR[i]=max height in right array i.e. max height in [i+1,n)
+
+
 class Solution {
 public:
     int trap(vector<int>& height) {
