@@ -5,36 +5,36 @@ class Solution {
 public:
     int numSubmat(vector<vector<int>>& mat) 
     {
-         //Decalration of variable
+         //Decalration of required variable 
         int res= 0;
 
-        //Calculating length of row and column
+        //Calculating length of i and column
 		int m = mat.size();
 		int n = mat[0].size();
 		
         // updating the matrix based on if we found 0 or 1
-		for (int row = 1; row < m; row++)
+		for (int i = 1; i < m; i++)
          {
-			for (int col = 0; col < n; col++) 
+			for (int j = 0; j < n; j++) 
             {
-                //If it is 1, then we will update it to its prev row value+1, otherwise 0
-				mat[row][col] = mat[row][col] == 1 ? mat[row - 1][col] + 1 : 0;
+                //If it is 1, then we will update it to its prev i value+1, otherwise 0
+				mat[i][j] = mat[i][j] == 1 ? mat[i - 1][j] + 1 : 0;
 			}
 		}
 		
         //adding it to res if a value is not zero
-		for (int row = 0; row < m; row++)
+		for (int i = 0; i < m; i++)
          {
-			for (int col = 0; col < n; col++) 
+			for (int j = 0; j < n; j++) 
             {
                 //checking every column if there are more 1's
-				if (mat[row][col] != 0) 
+				if (mat[i][j] != 0) 
                 {
-					int Min = mat[row][col];
+					int Min = mat[i][j];
 					res+= Min;
-					for (int k = col + 1; k < n && mat[row][k] != 0; k++) 
+					for (int k = j + 1; k < n && mat[i][k] != 0; k++) 
                     {
-						Min = min (Min, mat[row][k]);
+						Min = min (Min, mat[i][k]);
 						res+= Min;
 					}
 				}
