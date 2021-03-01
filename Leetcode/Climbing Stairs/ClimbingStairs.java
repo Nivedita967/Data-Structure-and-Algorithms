@@ -1,7 +1,11 @@
 class Solution {
     public int climbStairs(int n) {
-        if(n < 4)
+//         base case for climbing stairs problem(stopping condition)
+        if(n < 4) 
             return n;
+        /*
+It follows fibonaanic series
+*/
         int a = 2,b = 3,curr = 0;
         for(int i = 4; i <= n; i++)
         {
