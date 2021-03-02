@@ -6,7 +6,7 @@ using namespace std;
 
 // Complete the matchingStrings function below.
 vector<int> matchingStrings(vector<string> strings, vector<string> queries) {
-    vector<int> vRet;
+    vector<int> vRet;  // for storing the result as a vector
     for(auto it : queries) {
         int iCount = count_if(strings.begin(), strings.end(), [&](string s) {
             return it == s;
@@ -24,9 +24,9 @@ int main()
     cin >> strings_count;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-    vector<string> strings(strings_count);
+    vector<string> strings(strings_count);  // for storing the result as a vector
 
-    for (int i = 0; i < strings_count; i++) {
+    for (int i = 0; i < strings_count; i++) {  //Loop 1st as described above
         string strings_item;
         getline(cin, strings_item);
 
@@ -34,12 +34,12 @@ int main()
     }
 
     int queries_count;
-    cin >> queries_count;
+    cin >> queries_count; // if same increment the value of count
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-    vector<string> queries(queries_count);
+    vector<string> queries(queries_count); // if same increment the value of count
 
-    for (int i = 0; i < queries_count; i++) {
+    for (int i = 0; i < queries_count; i++) {  
         string queries_item;
         getline(cin, queries_item);
 
@@ -48,7 +48,7 @@ int main()
 
     vector<int> res = matchingStrings(strings, queries);
 
-    for (int i = 0; i < res.size(); i++) {
+    for (int i = 0; i < res.size(); i++) {  //Loop 2nd as described above
         fout << res[i];
 
         if (i != res.size() - 1) {
