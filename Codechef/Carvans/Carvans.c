@@ -1,7 +1,7 @@
 // Approach:-
-// 	All we have to do is check from the car which entered last as the car in frount will stop from 
-// 	going to max speed. So if, there is any car in frount which have slower or equal as you
-// 	then you cant go full speed  
+// 	All we have to do is check from the car which entered last, as the car in frount will stop current car from 
+// 	going to max speed. So if, there is any car in frount which have slower or equal as current car
+// 	then current car cant go full speed  
 
 
 #include<stdio.h>
