@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        queue<int> nums1,nums2,ans;
+        queue<int> nums1,nums2,ans; //Two queues to copy all digits from linked list l1 and l2.
         while (l1){
             nums1.push(l1->val);
             l1=l1->next;
@@ -20,10 +20,10 @@ public:
             nums2.push(l2->val);
             l2=l2->next;
         }
-        int carry=0;  
-        int mid=0;
+        int carry=0;  //will store the carry over from each addition.
+        int mid=0; //will store the result of addition of two digits.
         while( !nums1.empty()|| !nums2.empty()){
-            if (!nums1.empty()&& !nums2.empty()){
+            if (!nums1.empty()&& !nums2.empty()){ // if neither of the queues are empty add the digits.
                 mid=nums1.front()+nums2.front()+carry;
                 ans.push(mid%10);
                 nums1.pop();
@@ -44,8 +44,10 @@ public:
             }
         }
         if (carry){
-            ans.push(carry);
+            ans.push(carry); //If carry still left after the last operation push it into the answer queue.
         }
+
+        //Now copy the values from queue to a new linked list.
         ListNode*p;
         ListNode*root=new ListNode;
         root->val=ans.front();
