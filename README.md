@@ -1,4 +1,4 @@
-<h1 align="center"> Data-Structure-and-Algorithms <h1>
+<h1 align="center"> Data-Structure-and-Algorithms </h1>
              
 ![GitHub open issues](https://img.shields.io/github/issues-raw/Nivedita967/Data-Structure-and-Algorithms?color=%23f&logo=Github)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Nivedita967/Data-Structure-and-Algorithms?color=%2300&logo=Github)
