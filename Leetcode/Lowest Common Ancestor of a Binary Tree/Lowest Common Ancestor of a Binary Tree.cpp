@@ -1,1 +1,1 @@
-//Lca of nodes n1 and n2 is shared ancestor of nodes n1 and n2 which is located farthest from the root
+//Lca of nodes n1 and n2 is shared ancestor of nodes n1 and n2 which is located farthest from the roots
