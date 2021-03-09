@@ -1,5 +1,19 @@
-# Data-Structure-and-Algorithms  
-Covering various practice problems of Arrays, Stacks, queue, tree, graph and different Algorithms. A collection of solutions for Data Structure and Algorithms problems across various platforms in different languages.  
+<h1 align="center"> Data-Structure-and-Algorithms <h1>
+             
+![GitHub open issues](https://img.shields.io/github/issues-raw/Nivedita967/Data-Structure-and-Algorithms?color=%23f&logo=Github)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Nivedita967/Data-Structure-and-Algorithms?color=%2300&logo=Github)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/Nivedita967/Data-Structure-and-Algorithms?logo=Github)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Nivedita967/Data-Structure-and-Algorithms?logo=Github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Nivedita967/Data-Structure-and-Algorithms?color=%233493eb&logo=Github)
+![GitHub forks](https://img.shields.io/github/forks/Nivedita967/Data-Structure-and-Algorithms?color=%233493eb&label=Forks&logo=Github)
+![GitHub contributors](https://img.shields.io/github/contributors/Nivedita967/Data-Structure-and-Algorithms?logo=Github)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+<br>
+
+
+This repository covers various practice problems of Arrays, Stacks, Queues, Trees, Graphs and different other Algorithms. A collection of solutions for Data Structure and Algorithm problems across various platforms in different languages.  
 ## Contributing  
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
