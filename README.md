@@ -6,7 +6,6 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Nivedita967/Data-Structure-and-Algorithms?logo=Github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Nivedita967/Data-Structure-and-Algorithms?color=%233493eb&logo=Github)
 ![GitHub forks](https://img.shields.io/github/forks/Nivedita967/Data-Structure-and-Algorithms?color=%233493eb&label=Forks&logo=Github)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![GitHub contributors](https://img.shields.io/github/contributors/Nivedita967/Data-Structure-and-Algorithms?logo=Github)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
@@ -16,6 +15,8 @@
 
 This repository covers various practice problems of Arrays, Stacks, Queues, Trees, Graphs and different other Algorithms. A collection of solutions for Data Structure and Algorithm problems across various platforms in different languages.  
 ## Contributing  
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+<br>
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcomed!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
 
