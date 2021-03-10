@@ -17,7 +17,7 @@
 
 This repository covers various practice problems of Arrays, Stacks, Queues, Trees, Graphs and different other Algorithms. A collection of solutions for Data Structure and Algorithm problems across various platforms in different languages.  
 ## Contributing  
-This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
+This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcomed!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
 
 ## Used Languages  
@@ -29,7 +29,7 @@ Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃
 ## Contact  
 * Gitter Channel 🠮 [![Join the chat at https://gitter.im/Data-Structure-and-Algorithms-Nivedita/community](https://badges.gitter.im/Data-Structure-and-Algorithms-Nivedita/community.svg)](https://gitter.im/Data-Structure-and-Algorithms-Nivedita/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  
 * Project is maintained by 🠮 [Nivedita Singh](https://github.com/Nivedita967)  
-### Give it a STAR 🌟 if you like ❤ this project.
+### Give it a 🌟 if you ❤ this project.
 
 ### This Project is a part of the following Open Source Program
 
