@@ -27,7 +27,7 @@ int main()
         }
        
    }
-   //printing beautiful year 
+   //printing beautiful year as output
    cout<<year<<endl;
  
     return 0;
