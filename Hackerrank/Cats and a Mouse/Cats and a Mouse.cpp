@@ -1,16 +1,19 @@
+// A program to find who will win the race , cat a , cat b or the mouse
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 vector<string> split_string(string);
 
-// Complete the catAndMouse function below.
+// we have to complete the catAndMouse function below only, rest of the code will be given by hackerrank itself  
 string catAndMouse(int x, int y, int z) {
-    int a = x - z;
+    int a = x - z;                           // Calculating length to be travelled by both the cats
     int b = y - z;
-    if (a < 0) a *= -1;
+    if (a < 0) a *= -1;                      // Converting length to positive if it is negative
     if (b < 0) b *= -1;
-    if (a == b) return "Mouse C";
+    if (a == b) return "Mouse C";            // Printing result
     else if (a > b) return "Cat B";
     else return "Cat A";
 
@@ -21,16 +24,16 @@ int main()
     ofstream fout(getenv("OUTPUT_PATH"));
 
     int q;
-    cin >> q;
+    cin >> q;                                                   // Getting user input
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     for (int q_itr = 0; q_itr < q; q_itr++) {
         string xyz_temp;
         getline(cin, xyz_temp);
 
-        vector<string> xyz = split_string(xyz_temp);
+        vector<string> xyz = split_string(xyz_temp);         
 
-        int x = stoi(xyz[0]);
+        int x = stoi(xyz[0]);                                  // Converting iput into integer
 
         int y = stoi(xyz[1]);
 
@@ -38,7 +41,7 @@ int main()
 
         string result = catAndMouse(x, y, z);
 
-        fout << result << "\n";
+        fout << result << "\n";                               // Printing result
     }
 
     fout.close();
