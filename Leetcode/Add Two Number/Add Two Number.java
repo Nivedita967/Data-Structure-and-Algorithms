@@ -7,9 +7,8 @@ You may assume the two numbers do not contain any leading zero, except the numbe
  */
 
 
-package Leetcode.Add_two_numbers;
 
-public class Add_Two_Number {
+public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
        
         int carry = 0;
