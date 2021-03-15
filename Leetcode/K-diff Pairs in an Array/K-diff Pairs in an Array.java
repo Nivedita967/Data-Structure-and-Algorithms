@@ -5,8 +5,7 @@
 // |nums[i] - nums[j]| == k
 // Notice that |val| denotes the absolute value of val.
 
-package Leetcode.K_diff_pair_of_Array;
-class K_diff {
+class Solution {
     //Initialize the count
     int count = 0;
     public int findPairs(int[] nums, int k) {
