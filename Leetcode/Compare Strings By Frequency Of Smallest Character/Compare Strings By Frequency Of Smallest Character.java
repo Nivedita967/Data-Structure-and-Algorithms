@@ -15,10 +15,9 @@
 // Output: [1,2]
 // Explanation: On the first query only f("bbb") < f("aaaa"). On the second query both f("aaa") and f("aaaa") are both > f("cc").
 
-package Leetcode.Compare_Strings;
 import java.io.*; 
 import java.util.*; 
-class Compare_Strings {
+class Solution {
     private int cal(String s){
         char smallest = 'z';
         char[] arr = s.toCharArray();
