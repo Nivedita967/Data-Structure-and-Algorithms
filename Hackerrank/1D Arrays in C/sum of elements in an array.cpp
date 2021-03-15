@@ -10,7 +10,7 @@ int main ()
     cin >> arr[i];
     for (i = 0; i < n; i++)
     {
-        sum += arr[i];            //addition of elements 0f array
+        sum += arr[i];            //addition of elements of array
     }
     cout << "" << sum;
     return 0;
