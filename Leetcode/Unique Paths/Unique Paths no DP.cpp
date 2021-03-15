@@ -3,6 +3,7 @@ using namespace std;
 
 class Solution {
 public:
+  // Efficient code to Calculate nCr Combinations
   int NcR(int n, int r) {
     long long p = 1, k = 1;
     if (n - r < r)
