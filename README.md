@@ -19,6 +19,7 @@ This repository covers various practice problems of Arrays, Stacks, Queues, Tree
 <br>
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcomed!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
+`*Plagiarism is not allowed*`
 
 ## Used Languages  
 * C
