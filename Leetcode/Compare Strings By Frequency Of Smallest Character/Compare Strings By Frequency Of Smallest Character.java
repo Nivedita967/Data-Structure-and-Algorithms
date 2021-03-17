@@ -15,35 +15,40 @@
 // Output: [1,2]
 // Explanation: On the first query only f("bbb") < f("aaaa"). On the second query both f("aaa") and f("aaaa") are both > f("cc").
 
-import java.io.*; 
+// import java.io.*; 
 import java.util.*; 
 class Solution {
     private int cal(String s){
-        char smallest = 'z';
-        char[] arr = s.toCharArray();
+        char smallest = 'z'; // Since z is alphabetically largest char.
+        char[] arr = s.toCharArray(); // convert string s to a character array
+        // Traverse each character of arr & find smallest character of string
         for(char c : arr){
             if(c < smallest){
                 smallest = c;
             }
         }
+        // Traverse each element of arr & find the frequency of smallest char
         int count = 0;
         for(char d : arr){
             if(d == smallest){
                 count++;
             }
         }
+        // return the frequency
         return count;
     }
     
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
-        List<Integer> ql = new ArrayList<Integer>();
-        List<Integer> wl = new ArrayList<Integer>();
+        List<Integer> ql = new ArrayList<Integer>(); // Array list of queries
+        List<Integer> wl = new ArrayList<Integer>(); // Arraylist of words
         
+        // Calculate the frequency of smallest character for each elements in queries & add to ql
         for(String s : queries){
             int c = cal(s);
             
             ql.add(c);
         }
+        // Calculate the frequency of smallest character for each elements in words & add to wl
         for(String t : words){
             int c = cal(t);
             
@@ -51,6 +56,7 @@ class Solution {
         }
         int[] ans = new int[queries.length];
         int x =0;
+        // Comparing the Strings by frequency of smallest character
         for(int i = 0;i < queries.length;i++){
             int count = 0;
             for(int j = 0; j < words.length ; j++){
