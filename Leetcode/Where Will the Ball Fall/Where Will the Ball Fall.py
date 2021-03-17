@@ -29,22 +29,27 @@ class Solution(object):
         :type grid: List[List[int]]
         :rtype: List[int]
         """
-        numberOfColumns = len(grid[0])
-        fallLocations = []
-        for startingColumn in range(numberOfColumns):
+        numberOfColumns = len(grid[0]) # Number of columns in the grid.
+        fallLocations = []  # The answer List
+        for startingColumn in range(numberOfColumns):  # Traversing each colummn one by one
             fallLocations.append(self.findBallFallLocation(grid, startingColumn))
         return fallLocations
     
     def findBallFallLocation(self, grid, startingColumn):
-        numberOfRows = len(grid)
-        numberOfColumns = len(grid[0])
-        ballColumnLocation = startingColumn
+        numberOfRows = len(grid)  # number of rows in the grid
+        numberOfColumns = len(grid[0]) # Number of columns in the grid
+        ballColumnLocation = startingColumn # Initiallly the ball will be at its respective starting column
         for ballRowLocation in range(numberOfRows):
+            # if the value of grid at which the ball is currently is 1 (left to right) then check if the value at same row but next column element is 1 (left to right) or not.
+            # If it is 1 that means the ball will move right hence increment he ballColumnLocation by 1.
             if grid[ballRowLocation][ballColumnLocation] == 1 and ballColumnLocation + 1 < numberOfColumns and grid[ballRowLocation][ballColumnLocation + 1] == 1:
                 ballColumnLocation = ballColumnLocation + 1
                 continue
+             # if the value of grid at which the ball is currently is -1 (right to left) then check if the value at same row but previous column element is -1 (right to left) or not.
+             # If it is -1 that means the ball will move left hence decrement he ballColumnLocation by 1.
             if grid[ballRowLocation][ballColumnLocation] == -1 and ballColumnLocation - 1 >= 0 and grid[ballRowLocation][ballColumnLocation - 1] == -1:
                 ballColumnLocation = ballColumnLocation - 1
                 continue
+            # Else the ball has got stuck hence return -1
             return -1
         return ballColumnLocation
