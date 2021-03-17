@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Find_peak_element",
+            "request": "launch",
+            "mainClass": "Find_peak_element",
+            "projectName": "Data-Structure-and-Algorithms_5fa9afab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_peek_element",
+            "request": "launch",
+            "mainClass": "Find_peek_element",
+            "projectName": "Data-Structure-and-Algorithms_5fa9afab"
+        },
+        {
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
