@@ -32,6 +32,7 @@ class Solution {
         return result;
     }
     
+    // Implement Binary Search
     private int binarySearch(List<Integer> list, int left, int right, int target)
     {
         if (left <= right)
@@ -40,7 +41,7 @@ class Solution {
             int mid = left + (right - left) / 2;
             int num = list.get(mid);
             
-            // if num is equal to target
+            // if num is equal to target return the mid
             if (num == target)
                 return mid;
             else if (num < target)
