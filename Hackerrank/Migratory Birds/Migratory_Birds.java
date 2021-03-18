@@ -24,4 +24,4 @@ static int migratoryBirds(List<Integer> arr) {
             }    
         }
         return ans;  //return id of the bird that is more frequently sighted
-     }
+ }
