@@ -52,6 +52,8 @@ public class Boardcutting {
            //printing the results
            System.out.println(c%((int)Math.pow(10,9)+7));
         }
+        
     }
+
 }
 
