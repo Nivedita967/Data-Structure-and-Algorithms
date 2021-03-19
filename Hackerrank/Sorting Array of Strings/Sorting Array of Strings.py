@@ -1,10 +1,13 @@
+#Program to sort an array containing string elements in different orders 
 import functools
 
+#Sorting by lexicographic order
 def sortLexo(my_list):
     sorted_list = sorted(a_list, key = lambda s : s.lower())
     for x in sorted_list:
         print(x)
-  
+
+#Sorting by reversed lexicographic order
 def sortLexoreverse(my_list):
     sorted_list=sorted(my_list, key = lambda x : 255-ord(x))
     for x in sorted_list:
@@ -21,7 +24,7 @@ def countDistinct(s):
             m[s[i]] += 1
     return len(m)
  
-# Function to perform sorting
+#Calculating and sorting by number of distinct characters
 def compare(a, b):
     if (countDistinct(a) == countDistinct(b)):
         # Check if size of string 1
@@ -32,6 +35,7 @@ def compare(a, b):
     else:
         return (countDistinct(a) - countDistinct(b))
 
+#Sorting by length
 def sortLen(my_list):
     sorted_list)=my_list.sort(key=len)
     for x in sorted_list:
