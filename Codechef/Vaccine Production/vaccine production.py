@@ -1,4 +1,4 @@
-//A Program in Python to analise production of vaccine
+//a program in python to analise production of vaccine 
 
 
 //Reading input
