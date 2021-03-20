@@ -10,16 +10,16 @@ class Solution:
         if not root:
             return root
         
-        res = []                                     
+        res = []                                            # Declaring the list to contain tree elements            
             
         if root.left:
-            res += self.inorderTraversal(root.left)         # Updating result
+            res += self.inorderTraversal(root.left)         # Updating list to find if the tree is left
         
-        if root:
+        if root:                                            # Appending value of root in the list
             res.append(root.val)
         
         if root.right:
-            res += self.inorderTraversal(root.right)
+            res += self.inorderTraversal(root.right)        # Updating list to find if the tree is right
 
-        return res                                          # Printing result
+        return res                                          # Returning result
         
