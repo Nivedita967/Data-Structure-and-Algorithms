@@ -1,13 +1,11 @@
 //a program in python to analise production of vaccine 
 
 
-//Reading input
-
-d1,v1,d2,v2,x = map(int,input().split())
+d1,v1,d2,v2,x = map(int,input().split())  // reading input
 total = 0
 ans = 0
 
-//Calculating Production
+//calculating production
 
 while total < x:
     if d1 == 1:
@@ -20,6 +18,6 @@ while total < x:
         d2 -= 1
     ans += 1
     
-//Printing Result    
+//printing result    
 
 print(ans)
