@@ -1,9 +1,9 @@
 # Approach:
-# Main observation, The least difference between the number the higer the value after modulo
+# Main observation, The least difference between the numbers, the higer the value after modulo
 # eg:
 #  -1%7=6
 #  -2%7=5
-#  and so on so we have to mimize the difference between them. 
+#  and so on so we have to minimize the difference between them. 
  # 	The main problem in the question was to find just greater number than our prefixSum. For that we used bisect, 
 # 	bisect_right tell you if their is any greater element than our current element. 
 
