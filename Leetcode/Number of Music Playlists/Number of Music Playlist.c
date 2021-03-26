@@ -1,10 +1,11 @@
-#Problem:https://leetcode.com/problems/number-of-music-playlists/description/
+/*Problem:https://leetcode.com/problems/number-of-music-playlists/description/
 
-#Approach:
+Approach:
 Let dp[i][j] be the number of playlists of length i that have exactly j unique songs
 Consider dp[i][j]. Last song, we either played a song for the first time or we didn't.
 If we did, then we had dp[i-1][j-1] * (N-j) ways to choose it.
 If we didn't, then we repeated a previous song in dp[i-1][j] * max(j-K, 0) ways
+*/
 
 int numMusicPlaylists(int N, int L, int K)
 {
