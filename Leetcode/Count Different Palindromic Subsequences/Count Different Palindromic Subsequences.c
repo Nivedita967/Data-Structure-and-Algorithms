@@ -4,7 +4,7 @@ int countPalindromicSubsequences(char *S)
 	static const int MOD = 1e9 + 7;
 	int N = strlen(S);
 	int dp[N][N];
-        #fill 2d array dp[N][N] with values zero from starting to end 
+        //fill 2d array dp[N][N] with values zero from starting to end 
 	memset(dp, 0, sizeof(dp));
 	for (int i = 0; i < N; ++i)
 		dp[i][i] = 1;
