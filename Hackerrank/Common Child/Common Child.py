@@ -16,4 +16,3 @@ def commonChild(s1, s2):
                 m[i][j] = max(m[i][j-1],m[i-1][j])
     # the length of the longest string which is a common child of the input strings
     return m[-1][-1]
-print(commonChild(input(), input()))
