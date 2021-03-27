@@ -43,6 +43,6 @@ while (lo<hi)
             else
             break;
 }
-// return the ans
+// return kth smallest prime fraction
 return ans;
 }
