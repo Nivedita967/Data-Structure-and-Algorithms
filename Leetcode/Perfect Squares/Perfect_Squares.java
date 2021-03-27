@@ -4,17 +4,18 @@ class Solution {
         int[] dp = new int[n+1];
         Arrays.fill(dp, Integer.MAX_VALUE);
 
-        // initialising dp[0] & dp[1];
+        // initialising base values
         dp[0]=0;
         dp[1]=1;
 
-        // from i >=2 we look back for all perfect squares and store min value
+        // filling all other values of dp array 
         for(int i=2; i<=n; i++){
             for(int j=1; j*j <=i; j++){
                 dp[i]= Math.min(dp[i], dp[i-(j*j)]+1);
             }
         }
-        //returning dp[n]
+
+        // returning dp[n]
         return dp[n];
     }
 }
