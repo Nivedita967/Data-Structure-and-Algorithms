@@ -1,5 +1,6 @@
 class Solution {
     public int numSquares(int n) {
+        //dp array
         int[] dp = new int[n+1];
         Arrays.fill(dp, Integer.MAX_VALUE);
 
@@ -13,7 +14,6 @@ class Solution {
                 dp[i]= Math.min(dp[i], dp[i-(j*j)]+1);
             }
         }
-
         //returning dp[n]
         return dp[n];
     }
