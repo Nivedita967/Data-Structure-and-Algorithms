@@ -32,4 +32,4 @@ int countPalindromicSubsequences(char *S)
 	}
 	return dp[0][N - 1];
 }
-print(countPalindromicSubsequences("bccb"))
+
