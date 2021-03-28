@@ -15,11 +15,9 @@ public class Solution {
      * Complete the simpleArraySum function below.
      */
     static int simpleArraySum(int[] ar) {
+        
         return Arrays.stream(ar).sum();
-        /*
-         * Write your code here.
-         */
-
+      
     }
 
     private static final Scanner scanner = new Scanner(System.in);
