@@ -1,4 +1,4 @@
-#Problem:https://leetcode.com/problems/stone-game-iv/description/
+//Problem:https://leetcode.com/problems/stone-game-iv/description/
 class Solution
 {
 public:
