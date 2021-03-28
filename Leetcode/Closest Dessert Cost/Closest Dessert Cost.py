@@ -21,17 +21,21 @@ class Solution(object):
             if (i, cost) in lookup:
                 return
             lookup.add((i, cost))
+            #  If we have reached the end of the top array
             if cost >= target or i == len(toppingCosts):
                 if (abs(cost-target), cost) < (abs(result[0]-target), result[0]):
                     result[0] = cost
                 return
             for j in xrange(max_count+1):
+                # Recursion
                 backtracking(toppingCosts, i+1, cost+j*toppingCosts[i], target, lookup, result)
 
         result = [float("inf")]
         lookup = set()
         for b in baseCosts:
+            # For Each element of base array run DFS in the top array to find the cost.
             backtracking(toppingCosts, 0, b, target, lookup, result)
+        # closest possible cost of the dessert to target    
         return result[0]
       
 """
