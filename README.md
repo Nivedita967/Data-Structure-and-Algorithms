@@ -18,7 +18,7 @@ This repository covers various practice problems of Arrays, Stacks, Queues, Tree
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 <br>
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcomed!  
-Don't forget to follow [Contribution Guidelines](.github/contributing.md) 😃  
+Don't forget to follow [Contribution Guidelines](.github/contributing.md) 🚀  
 *`Plagiarism is not allowed`*
 
 ## Currently Used Languages  
