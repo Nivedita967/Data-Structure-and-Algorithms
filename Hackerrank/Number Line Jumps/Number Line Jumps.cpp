@@ -6,16 +6,23 @@ vector<string> split_string(string);
 
 // Complete the kangaroo function below.
 string kangaroo(int x1, int v1, int x2, int v2) {
-    if (x2>x1 && v2>v1)
+    if (x2>x1 && v2>v1)            // if one is ahead of another and also jumps faster, then they will not meet
     {
         return "NO";
     }
-    float t = (float)(x2-x1)/(v1-v2);
+    
+    /* Let the number of jumps to reach the common point be t,
+    then, x1 + (t.v1) = x2 + (t.v2)
+    or,   (t.v1) - (t.v2) = x2 - x1 
+    or,   t = (x2-x1)/(v1-v2)
+    If t is an integer, it is possible to meet at a common point
+    */
+    
+    float t = (float)(x2-x1)/(v1-v2);  // Calculating t
     
     int tee = (int)t;
-    cout<<t<<endl;
-    cout<<tee<<endl;
-    if (t - (float)tee == 0.00)
+
+    if (t - (float)tee == 0.00)        // if t is an integer, returning yes
     {
         return "YES";
     }
