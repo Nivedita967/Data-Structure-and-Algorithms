@@ -1,9 +1,6 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 /* Name of the class has to be "Main" only if the class is public. */
-class CodeChef
+public class CodeChef
 {
 	public static void main (String[] args)
 	{
@@ -20,5 +17,6 @@ class CodeChef
 	        }
 		    System.out.println(squares);
 		}
+		n.close();
 	}
 }
